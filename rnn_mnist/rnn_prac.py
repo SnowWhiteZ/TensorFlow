@@ -1,3 +1,4 @@
+
 ### RNN LSTM
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
@@ -31,7 +32,7 @@ weights = {
 }
 biases = {
     # (128, )
-    'in': tf.Variable(tf.constant(0.1, shape=[n_hidden_units, ])),#Ò»ÐÐµÄÅ¶
+    'in': tf.Variable(tf.constant(0.1, shape=[n_hidden_units, ])),#
     # (10, )
     'out': tf.Variable(tf.constant(0.1, shape=[n_classes, ]))
 }
